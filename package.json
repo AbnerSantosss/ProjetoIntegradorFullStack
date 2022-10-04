@@ -1,0 +1,27 @@
+{
+  "name": "projetointegradorfullstack",
+  "version": "1.0.0",
+  "description": "<div align=\"center\">",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/server.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbnerSantosss/ProjetoIntegradorFullStack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbnerSantosss/ProjetoIntegradorFullStack/issues"
+  },
+  "homepage": "https://github.com/AbnerSantosss/ProjetoIntegradorFullStack#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.6.4",
+    "nodemon": "^2.0.20"
+  }
+}
