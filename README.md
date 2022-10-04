@@ -1,14 +1,15 @@
-# Projeto Integrador Campinho Digital
+<div align="center">
+ 
+  <img src="https://plataforma.campinhodigital.org/user/assets/images/logo-campinho.png" alt="">
+  <h1>Projeto Integrador</h1>
+ </div>
 
-### <center>HEY, PRONTOS PARA O DESAFIO FINAL?</center>
 
-<p align="center">
-  <img width="400" height="300" src="https://media.tenor.com/OamK13PpsYIAAAAC/jonah-hill-excited.gif">
-</p>
 
 
 
 Campinho Digital está revolucionando e investindo em uma nova tecnologia para ajudar as ongs parceiras e para isso precisa de uma aplicação em Node.js para atrair pessoas para essa nova tecnologia.  
+ 
 
 Crie uma REST Api usando Express para criar um CRUD com Node.js.  Para a solução, você deverá ser capaz de desenvolver uma API que realize um CRUD de um banco de talentos(RH) para cadastro de dados pessoais e curriculo ou pode criar uma API com  um tema livre (à sua escolha pode ser um Ecomerce, banco digital ou uma rede social desde que o objetivo tenha cunho social para ajudar outras pessoas). 
 
