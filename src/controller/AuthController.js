@@ -13,4 +13,33 @@ router.post('/register', async(req, res)=>{
       })
 
 })
+
+
+
+router.get('/usuario', async (req, res) => {
+  console.log(res.json)
+  try {
+    const user = await User.find()
+
+    res.status(200).json({ user })
+  } catch (error) {
+    res.status(500).json({ error })
+  }
+})
+
+
+router.get('/usuario/:id', async (req, res) => {
+  const id = req.params.id
+  try {
+    const user = await User.findOne({ _id: id })
+    if (!user) {
+      res.status(422).json({ message: 'Usuario não foi encontrado' })
+      return
+    }
+
+    res.status(200).json({ user })
+  } catch (error) {
+    res.status(500).json({ error: error })
+  }
+})
 module.exports = router
