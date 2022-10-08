@@ -42,4 +42,20 @@ router.get('/usuario/:id', async (req, res) => {
     res.status(500).json({ error: error })
   }
 })
+router.delete('/usuario/:id',async(req,res)=>{
+  const id =req.params.id
+  const person = await User.findOne({ _id: id })
+  if(!person){
+    res.status(422).json({message:'Usuário não encontrado'})
+    return 
+  }
+  try{
+    await User.deleteOne({ _id:id})
+    res.status(200).json({message:`Usuário ${person.name} removido com sucesso`})
+  }catch(error){
+    res.status(500).json({error: error })
+    console.log(error)
+  }
+}) 
+
 module.exports = router
