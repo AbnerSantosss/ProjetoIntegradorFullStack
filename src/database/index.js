@@ -5,7 +5,7 @@ mongoose.connect(
   {},
   error => {
     if (error) {
-      console.log('falha ao autenticar co o mongodb')
+      console.log('falha ao autenticar com  mongodb')
       console.log(error)
       return
     }

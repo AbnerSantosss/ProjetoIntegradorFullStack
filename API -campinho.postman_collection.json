@@ -1,0 +1,99 @@
+{
+	"info": {
+		"_postman_id": "672e6195-24e3-4331-a620-53eb94ab5230",
+		"name": "API -campinho",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23484935"
+	},
+	"item": [
+		{
+			"name": "Criar Usuario",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Suco de maracuja\",\r\n    \"email\": \"maracuja@hotmail.com\",\r\n    \"linkedin\": \"maracuja 10\",\r\n    \"github\": \"maracuja Deve\",\r\n    \"password\" :\"3265987\"\r\n    \r\n\r\n    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{URLL}}/auth/register",
+					"host": [
+						"{{URLL}}"
+					],
+					"path": [
+						"auth",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Ler Usuário",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Ler Usuário específico",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Editar Usuário",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n      \"_id\": \"63418edec0afaa4310413177\",\r\n        \"name\": \"Suco de maracuja\",\r\n        \"email\": \"maracuja@hotmail.com\",\r\n        \"linkedin\": \"maracuja 10\",\r\n        \"github\": \"maracuja Deve\"\r\n      \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{URLL}}/auth/usuario/63418edec0afaa4310413177",
+					"host": [
+						"{{URLL}}"
+					],
+					"path": [
+						"auth",
+						"usuario",
+						"63418edec0afaa4310413177"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Deletar Usuário",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "URL",
+			"value": "http://localhost:3001"
+		},
+		{
+			"key": "URLL",
+			"value": "http://localhost:3005 "
+		}
+	]
+}

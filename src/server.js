@@ -1,5 +1,4 @@
 const express = require('express')
-const { default: mongoose } = require('mongoose')
 const authcontroller = require('./controller/AuthController')
 const app = express()
 
