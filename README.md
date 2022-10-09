@@ -1,7 +1,6 @@
 <div align="center">
  
-  <img src="https://plataforma.campinhodigital.org/user/assets/images/logo-campinho.png" alt="">
-  
+
  </div>
 
 
