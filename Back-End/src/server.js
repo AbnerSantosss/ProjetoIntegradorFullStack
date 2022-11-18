@@ -1,6 +1,9 @@
 const express = require('express')
 const authcontroller = require('./controller/AuthController')
+
 const app = express()
+
+require('dotenv').config()
 
 app.use(express.json())
 
