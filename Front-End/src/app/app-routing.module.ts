@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AboutComponent } from './about/about.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { HomeComponent } from './home/home.component';
+import { LoginComponent } from './login/login.component';
 import { PageFromComponent } from './page-from/page-from.component';
 
 const routes: Routes = [
@@ -29,7 +30,12 @@ const routes: Routes = [
   path:'pageform',
   component: PageFromComponent,
   
+},
+{
+  path:'login',
+  component: LoginComponent,
 }
+
 ];
   
 

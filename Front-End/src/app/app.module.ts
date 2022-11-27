@@ -9,6 +9,7 @@ import { AboutComponent } from './about/about.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { PageFromComponent } from './page-from/page-from.component';
+import { LoginComponent } from './login/login.component';
 
 
 @NgModule({
@@ -19,6 +20,7 @@ import { PageFromComponent } from './page-from/page-from.component';
     NavBarComponent,
     FooterComponent,
     PageFromComponent,
+    LoginComponent,
  
    
   ],
