@@ -1,0 +1,27 @@
+nav{
+  background-color: #D4DA3C;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.nav-list{
+  display: flex;
+  gap: 3.9rem;
+  list-style: none;
+  margin-right: 20px;
+}
+
+.nav-list li a{
+  text-decoration: none;
+  color: #312E38;
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.nav-list li a:hover{
+  color: #6f6f6f;
+
+}
+  
+

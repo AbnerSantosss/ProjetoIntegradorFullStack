@@ -1,0 +1,65 @@
+#page{
+  background: #1E1E1E;
+  height: 100vh;
+
+}
+
+
+
+.section-intro{
+  display: flex;
+  justify-content: center;
+  gap: 23.0rem;
+  width: 100%;
+  margin-top: 4rem;
+  align-items: center;
+}
+  
+
+.text-content{
+  color: #FFFFFF;
+  
+  text-align: center;
+}
+
+.text-content h1{
+  font-size: 4.8rem;
+}
+.text-content p {
+  font-size: 1.9rem;
+}
+
+
+.section-btn{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+  
+
+.section-btn button {
+  border: none;
+  width: 45.1rem;
+  height: 8.2rem;
+  background: #D4DA3C;
+  transition: 0.3s;
+  
+}
+
+.section-btn button:hover{
+  background: #84872a;
+}
+
+
+.section-btn button a{
+  text-decoration: none;
+  font-size: 2.5rem;
+  color: #1E1E1E;
+  transition: 0.3s;
+}
+
+.section-btn button a:hover{
+  color: #ffffff;
+}
+
+  

@@ -1,0 +1,137 @@
+#page{
+  background-color: #1E1E1E;
+}
+
+
+  
+label {
+  color: #D4DA3C;
+  margin-bottom: 1.0rem;
+}
+
+input {
+  background: rgba(217, 217, 217, 0.29);
+  border-radius: 1.0rem;
+  height: 4.0rem;
+  border: none;
+  color: aliceblue;
+  padding: 1.0rem;
+}
+
+.infor-page{
+  display: flex;
+  margin-top: 5.8rem;
+}
+
+
+.infor-page img{
+   width: 23%;
+}
+
+
+.infor-text {
+  color: aliceblue;
+  margin-left: 4.1rem;
+  text-align: center;
+}
+
+
+.infor-text h1{
+  font-size: 3.8rem;
+}
+
+
+.infor-text p{
+  width: 70.8rem;
+  font-size: 1.6rem;
+}
+
+
+#my-form {
+  width: 61.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 3.0rem;
+}
+  
+
+
+.fieldset-content{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 2.0rem;
+  gap: 3.0rem;
+}
+
+
+.perfil-img{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.0rem;
+  margin-bottom: 20px;
+}
+
+
+.perfil-img input{
+  cursor: pointer;
+}
+
+
+.perfil-img img{
+  width: 9.9rem;
+  border-radius: 50%;
+}
+
+
+/*==========Dual-inputs==========*/
+.section-dual-input{
+  display: flex;
+  gap: 2.0rem;
+}
+
+.section-dual-input div{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.section-dual-input div input {
+  width: 24.6rem;
+}
+
+
+
+/*==========One-inputs==========*/
+
+.section-one-input{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.btn{
+  width: 152.8px;
+    height: 36.63px;
+    background: #D4DA3C;
+    border-radius: 1.0rem;
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 1.6rem;
+  }
+
+  .btn:hover{
+    background: #7c8011;
+  }
+  
+  
+  
+
+
+  
