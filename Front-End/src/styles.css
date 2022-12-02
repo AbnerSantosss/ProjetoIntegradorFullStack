@@ -6,8 +6,18 @@
 
 :root{
   font-size: 62.5%;
+
+  --color-yellow: #D4DA3C;
+  --color-white: #FFFFFF;
+
+  --bg-Grey: #1E1E1E;
 }
+body{
+background-color: #1E1E1E;
+}
+
 app-root{
   font-size: 1.6rem;
   font-family: 'Roboto Slab', serif;
+  background-color: var(--bg-Grey);
 }
