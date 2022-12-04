@@ -26,148 +26,33 @@
         alt="svg de uma lupa"></button>
 
     <div class="content">
-      <div class="card-candidate">
+      <div class="card-candidate " *ngFor="let user of listaTalentos">
+
         <div class="perfil">
           <div class="perfil-img">
             <img src="../../assets/img/1649732376308.jpg" alt="foto de perfil">
 
           </div>
           <div class="text-infor-candidate">
-            <h2>Abner Henrique</h2>
+            <h2>{{user.name}}</h2>
             <h3>Habilidade</h3>
-            <p>Desenvolvedor fullstack</p>
+            <p>{{user.habilidade}}</p>
           </div>
 
         </div>
         <div class="btn-card">
-          <a href="">LINKEDIN</a>
-          <a href="">GITHUB</a>
+          <a routerLink="{{user.linkedin}}" target="blank">Linkedin</a>
+          <a routerLink="{{user.github}}" target="blank">GITHUB</a>
         </div>
-        <div class="btn-card">
-          <a href="#">Portifolio</a>
-          <a href="#">Falar Diretamente</a>
-        </div>
-
       </div>
-      <div class="card-candidate">
-        <div class="perfil">
-          <div class="perfil-img">
-            <img src="../../assets/img/1649732376308.jpg" alt="foto de perfil">
-
-          </div>
-          <div class="text-infor-candidate">
-            <h2>Abner Henrique</h2>
-            <h3>Habilidade</h3>
-            <p>Desenvolvedor fullstack</p>
-          </div>
-
-        </div>
-        <div class="btn-card">
-          <a href="">LINKEDIN</a>
-          <a href="">GITHUB</a>
-        </div>
-        <div class="btn-card">
-          <a href="#">Portifolio</a>
-          <a href="#">Falar Diretamente</a>
-        </div>
-
-      </div>
-      <div class="card-candidate">
-        <div class="perfil">
-          <div class="perfil-img">
-            <img src="../../assets/img/1649732376308.jpg" alt="foto de perfil">
-
-          </div>
-          <div class="text-infor-candidate">
-            <h2>Abner Henrique</h2>
-            <h3>Habilidade</h3>
-            <p>Desenvolvedor fullstack</p>
-          </div>
-
-        </div>
-        <div class="btn-card">
-          <a href="">LINKEDIN</a>
-          <a href="">GITHUB</a>
-        </div>
-        <div class="btn-card">
-          <a href="#">Portifolio</a>
-          <a href="#">Falar Diretamente</a>
-        </div>
-
-      </div>
-      <div class="card-candidate">
-        <div class="perfil">
-          <div class="perfil-img">
-            <img src="../../assets/img/1649732376308.jpg" alt="foto de perfil">
-
-          </div>
-          <div class="text-infor-candidate">
-            <h2>Abner Henrique</h2>
-            <h3>Habilidade</h3>
-            <p>Desenvolvedor fullstack</p>
-          </div>
-
-        </div>
-        <div class="btn-card">
-          <a href="">LINKEDIN</a>
-          <a href="">GITHUB</a>
-        </div>
-        <div class="btn-card">
-          <a href="#">Portifolio</a>
-          <a href="#">Falar Diretamente</a>
-        </div>
-
-      </div>
-      <div class="card-candidate">
-        <div class="perfil">
-          <div class="perfil-img">
-            <img src="../../assets/img/1649732376308.jpg" alt="foto de perfil">
-
-          </div>
-          <div class="text-infor-candidate">
-            <h2>Abner Henrique</h2>
-            <h3>Habilidade</h3>
-            <p>Desenvolvedor fullstack</p>
-          </div>
-
-        </div>
-        <div class="btn-card">
-          <a href="">LINKEDIN</a>
-          <a href="">GITHUB</a>
-        </div>
-        <div class="btn-card">
-          <a href="#">Portifolio</a>
-          <a href="#">Falar Diretamente</a>
-        </div>
-
-      </div>
-      <div class="card-candidate">
-        <div class="perfil">
-          <div class="perfil-img">
-            <img src="../../assets/img/1649732376308.jpg" alt="foto de perfil">
-
-          </div>
-          <div class="text-infor-candidate">
-            <h2>Abner Henrique</h2>
-            <h3>Habilidade</h3>
-            <p>Desenvolvedor fullstack</p>
-          </div>
-
-        </div>
-        <div class="btn-card">
-          <a href="">LINKEDIN</a>
-          <a href="">GITHUB</a>
-        </div>
-        <div class="btn-card">
-          <a href="#">Portifolio</a>
-          <a href="#">Falar Diretamente</a>
-        </div>
-
-      </div>
-
-
-
     </div>
+
+
+
+
+
+
+
 
 
 

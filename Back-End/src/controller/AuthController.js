@@ -7,6 +7,7 @@ const router = express.Router()
 //Criar usuário
 router.post('/register', async (req, res) => {
   const usuario = await User.create(req.body)
+
   return res.status(200).json({
     erro: false,
     message: `Usuario ${usuario.name} criado com sucesso!`,

@@ -5,6 +5,10 @@ const UseSchema = new mongoose.Schema({
     type: String,
     required: true
   },
+  habilidade: {
+    type: String,
+    required: true
+  },
   email: {
     type: String,
     required: true, //Aqui estou dizendo que esse campo é obrigatório

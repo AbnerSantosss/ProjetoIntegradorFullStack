@@ -1,6 +1,9 @@
 const express = require('express')
 const authcontroller = require('./controller/AuthController')
 
+const cors = require('cors')
+app.use(cors())
+
 const app = express()
 
 require('dotenv').config()
