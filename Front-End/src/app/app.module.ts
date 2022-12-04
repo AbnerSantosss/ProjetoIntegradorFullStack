@@ -9,6 +9,7 @@ import { AboutComponent } from './about/about.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { PageFromComponent } from './page-from/page-from.component';
+import {HttpClientModule} from '@angular/common/http';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { CandidatesPageComponent } from './candidates-page/candidates-page.component';
@@ -31,7 +32,8 @@ import { CandidatesPageComponent } from './candidates-page/candidates-page.compo
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
