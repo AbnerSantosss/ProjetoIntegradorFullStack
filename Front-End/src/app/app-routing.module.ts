@@ -3,7 +3,6 @@ import { RouterModule, Routes } from '@angular/router';
 import { AboutComponent } from './about/about.component';
 import { CandidatesPageComponent } from './candidates-page/candidates-page.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
-
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { PageFromComponent } from './page-from/page-from.component';
@@ -44,7 +43,7 @@ const routes: Routes = [
 },
 {
   path:'candidatepages',
-  component: CandidatesPageComponent
+  component: CandidatesPageComponent,
 }
 
 ];
