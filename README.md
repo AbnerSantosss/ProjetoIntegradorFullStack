@@ -8,9 +8,12 @@
  <div align="center">
 
 ![pagina-1](https://user-images.githubusercontent.com/107922389/194736205-3bdede47-76c7-44ca-b0ee-750710178441.png)
+![techUsadas](https://user-images.githubusercontent.com/107922389/205794965-243e6cb3-7749-4dc9-a460-edd5496b4d9f.jpg)
+![back](https://user-images.githubusercontent.com/107922389/205795049-74dca456-af2d-4c94-8093-fd2e7e836590.jpg)
 
 
-![página-2](https://user-images.githubusercontent.com/107922389/194735498-9e82ebfc-76c5-47c6-8637-bf6d21809257.png)
+
+
 ![Angular](https://user-images.githubusercontent.com/107922389/205793964-3ae68eb6-81db-4f28-b6e7-9758ce6b19de.jpg)
 ![Time](https://user-images.githubusercontent.com/107922389/205790447-5a43c1d4-f992-48be-8fed-620408da55ce.jpg)
 ![home](https://user-images.githubusercontent.com/107922389/205793966-be13265e-f990-4d55-b213-92f35b8f7764.jpg)
